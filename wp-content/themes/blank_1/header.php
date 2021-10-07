@@ -40,9 +40,8 @@
         <div class="s-12 l-2">
           <a href="<?= esc_url(home_url('/')) ?>" class="logo">
             <!-- Logo White Version -->
-            <img class="logo-white" src="<?= get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+            <!-- <img class="logo-white" src="<?= get_template_directory_uri(); ?>/assets/img/logo.png" alt=""> -->
             <!-- Logo Dark Version -->
-            <img class="logo-dark" src="<?= get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="">
           </a>
         </div>
         <div class="top-nav s-12 l-10">
@@ -50,7 +49,7 @@
           <ul class="right chevron">
             <li><a href="<?= esc_url(home_url('/')) ?>">Accueil</a></li>
             <li><a href="<?= esc_url(home_url('services')) ?>">À propos</a></li>
-            <li><a href="<?= esc_url(home_url('commande')) ?>">Commander</a></li>
+            <!-- <li><a href="<?= esc_url(home_url('commande')) ?>">Commander</a></li> -->
             <li><a href="<?= esc_url(home_url('galerie')) ?>">Galerie</a></li>
             <li><a href="<?= esc_url(home_url('contact')) ?>">Contact</a></li>
           </ul>
